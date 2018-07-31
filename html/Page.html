@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Test CSS</title>
+  <link rel="stylesheet" type="text/css" href="../css/Base.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
+  <script src="../js/Base.js"></script>
 </head>
 <body>
 <div class="section">
@@ -31,20 +34,20 @@
 <div class="section">
   <div class="container">
     <div class="navbar">
-      <div class="navbarMain">
+      <div class="navbarHome">
         <a href="#">Home</a>
       </div>
       <div class="navbarMenu">
-        <a href="#">Menu</a>
+        <a href="#" onclick="ToggleMenu()">Menu</a>
       </div>
-      <div class="navbarCollapse navbarLinks">
+      <div class="navbarCollapse navbarLinks navbarShow">
         <a href="#">Link 1</a>
         <a href="#">Link 2</a>
         <a href="#">Link 3</a>
         <a href="#">Link 4</a>
         <a href="#">Link 5</a>
       </div>
-      <div class="navbarCollapse navbarSignIn">
+      <div class="navbarCollapse navbarProfile navbarShow">
         <a href="#">Login</a>
         <a href="#">Sign Up</a>
       </div>
@@ -264,11 +267,11 @@
           </div>
         </div>
         <div class="row align-i-center">
-          <div class="col">
+          <div class="col-6-s">
             <label for="textareaMessage">Message</label>
             <textarea id="textareaMessage" placeholder="Enter message here..." class="u-full-width"></textarea>
           </div>
-          <div class="col">
+          <div class="col-6-s">
             <div class="row">
               <div class="col">
                 <label><input id="sendCheck" type="checkbox"> Send a copy to yourself</label>
@@ -288,10 +291,10 @@
 <div class="section">
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-6-s">
         <p>Test Paragraph</p>
       </div>
-      <div class="col-6">
+      <div class="col-6-s">
         <div class="row">
           <div class="col-6-s col-3-m">
             <img src="https://www.walkhighlands.co.uk/fortwilliam/4_36/4_36_3l.JPG" class="u-full-width"></img>
